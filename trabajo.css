@@ -1,0 +1,123 @@
+body {
+    background-color: #FEF5E7;
+    background-image: linear-gradient(top, #ffeed3, #FEF5E7, #fffcf7);
+    
+}
+header {
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid 5px #ffe8c3;
+}
+#quince {
+    height: 130px;
+    width: 120px;
+    margin-left: 5px;
+    
+}
+#titulo {
+    position: absolute;
+    left: 40%;
+    top: 1%;
+   font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Doppio One', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+article{
+    border: solid 5px #ffe8c3;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 1100px;
+    width: 900px;
+}
+#parte1 {
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 509px;
+    width: 800px;
+    border: solid 5px #ffe8c3;
+}
+#parte2 {
+    background-color: rgb(231, 231, 231);
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 510px;
+    width: 800px;
+    border: solid 5px #ffe8c3;
+}
+#asi {
+    background-color: white;
+    height: 1100px;
+    width: 500px;
+    border: solid 5px #ffe8c3;
+    position: absolute;
+    right: 1.5%;
+    top: 23.3%;   
+}
+p{
+ margin-left: 10px;
+ margin-right: 10px;
+}
+#img4{
+    width: 500px;
+    margin-left: 120px;
+}
+#negriña{
+    color: rgb(165, 63, 0);
+}
+#subt{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(165, 63, 0);
+}
+a{
+    color: black;
+}
+#epica{
+    margin-left: 100px;
+    width: 300px;
+}
+img{
+    transition: all 300ms;
+    position: relative;
+}
+img:hover{
+    transform: scale(1.15);
+}
+.foto img:hover{
+    transform: scale(1.25);
+}
+#img3{
+    margin-left: 180px;
+    width: 400px;
+}
+footer{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    border: solid 5px #ffe8c3;
+    height: 158px;
+}
+#box2{
+color: gray;
+    position: absolute;
+    top: 175%;
+    right: 2.5%;
+}
+#box3{
+    color: gray;
+    margin-left: 5px;
+}
