@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Escurridizo</title>
+    <style>
+        body {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .boton {
+            position: absolute;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: top 0.3s, left 0.3s; /* Para animación suave */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="boton" onclick="moverBoton()">No (este botón se mueve)</button>
+
+    <script>
+        function moverBoton() {
+            let boton = document.querySelector(".boton");
+
+            // Obtener el tamaño de la ventana
+            let maxWidth = window.innerWidth - boton.offsetWidth;
+            let maxHeight = window.innerHeight - boton.offsetHeight;
+
+            // Generar posiciones aleatorias dentro del área visible
+            let nuevaX = Math.random() * maxWidth;
+            let nuevaY = Math.random() * maxHeight;
+
+            // Aplicar nuevas coordenadas
+            boton.style.left = `${nuevaX}px`;
+            boton.style.top = `${nuevaY}px`;
+        }
+    </script>
+
+</body>
+</html>
+<button class="botones">
+    <a style="color: #fff;">no(este boton no hace nada)</a>
+</button>
+<div class="button">
+    <button class="botones" onclick="moverBoton()">
+        <a onclick="moverBoton() style="color: #fff;">no</a>    
+    </button>
+
+<script>
+    function moverBoton() {
+        let boton = document.querySelector(".boton");
+
+        // Obtener el tamaño de la ventana
+        let maxWidth = window.innerWidth - boton.offsetWidth;
+        let maxHeight = window.innerHeight - boton.offsetHeight;
+
+        // Generar posiciones aleatorias dentro del área visible
+        let nuevaX = Math.random() * maxWidth;
+        let nuevaY = Math.random() * maxHeight;
+
+        // Aplicar nuevas coordenadas
+        boton.style.left = `${nuevaX}px`;
+        boton.style.top = `${nuevaY}px`;
+    }
+</script>
+</div>
